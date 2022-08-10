@@ -1,6 +1,6 @@
 {
   "name": "vpeer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "爬网页统计词频的小工具",
   "repository": {
 	"type": "git",
