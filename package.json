@@ -1,0 +1,26 @@
+{
+  "name": "vpeer",
+  "version": "1.0.0",
+  "description": "爬网页统计词频的小工具",
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/veecam/vpeer.git"
+  },
+  "main": "src/main.js",
+  "files": [
+	"src"
+  ],
+  "scripts": {
+    "dev": "nodemon src/main.js",
+    "start": "node src/main.js"
+  },
+  "author": "veecam",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-finder": "^1.0.7",
+    "puppeteer-core": "^16.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
